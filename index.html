@@ -8,46 +8,101 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<style>
-    body {
-        margin: 0;
-        background-color: #d8dbdb;
-        padding: 20px;
-        font-family: 'Roboto' ,Arial, sans-serif;
-        font-size: 18px;
-        color: #565859;
-    }
-    .wrapper{
-        background-color: #f6faff;
-        max-width: 700px;
-        margin: 0 auto;
-        box-shadow: 0 0 10px #616e79;
-        border-top: 10px solid #37a28f;
-        border-radius: 5px 10px;
-    }
-    .logo {
-        text-align: center;
-        padding: 1% 0;
-    }
-    .logo img {
-        max-width: 250px;
-    }
-    img {
-        max-width: 100%;
-    }
-</style>
+    <style>
+        body {
+            margin: 0;
+            background-color: #d8dbdb;
+            padding: 20px;
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 18px;
+            color: #565859;
+        }
+
+        .wrapper {
+            background-color: #f6faff;
+            max-width: 700px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px #616e79;
+            border-top: 10px solid #37a28f;
+            border-radius: 5px 10px;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 1% 0;
+        }
+
+        .logo img {
+            max-width: 250px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+        .three-columns {
+            width: 29.3%;
+            padding: 5% 2% 6%;
+            text-align: center;
+        }
+        .three-columns img {
+            max-width: 135px;
+        }
+        h2 {
+            font-weight: 900;
+            font-size: 28px;
+            letter-spacing: 1px;
+            margin: 20px 0 8px;
+        }
+        p{
+            line-height: 26px;
+        }
+        .btn {
+            background-color: #37a28f;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 14px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            transition: background-color 0.4s, color 0.4s;
+        }
+        .btn:hover {
+            background-color: #3db5a0;
+            color: #fff;
+        }
+
+    </style>
 </head>
 
 <body>
-   
-    <div class="wrapper">
-       
-        <div class="logo">
-            <a href="https://example.com" target="_blank"><img src="https://github.com/mondom/e-mail-HTML-img/blob/main/logo.png?raw=true" alt="Logo HTML5" title="Logo HTML5"></a>
-        </div>
-        <a href="https://example.com" target="_blank"><img src="https://github.com/mondom/e-mail-HTML-img/blob/main/banner.png?raw=true" alt="Banner" title="Banner" class="banner"></a>
 
-    </div>
+    <div class="wrapper">
+
+        <div class="logo">
+            <a href="https://example.com" target="_blank"><img
+                    src="https://github.com/mondom/e-mail-HTML-img/blob/main/logo.png?raw=true" alt="Logo HTML5"
+                    title="Logo HTML5"></a>
+        </div>
+        <a href="https://example.com" target="_blank"><img
+                src="https://github.com/mondom/e-mail-HTML-img/blob/main/banner.png?raw=true" alt="Banner"
+                title="Banner" class="banner"></a>
+
+        <div class="three-columns">
+            <a href="https://example.com" target="_blank"><img
+                    src="https://github.com/mondom/e-mail-HTML-img/blob/main/mouse.png?raw=true" alt="Mouse icon"
+                    title="Mouse icon"></a>
+                    <h2>Email Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nisi iste ipsum?</p>
+                    <div class="button-holder">
+                        <a href="https://example.com" target="_blank" class="btn">Learn more</a>
+                    </div>
+
+        </div>
+
+
+    </div> <!--end of wrapper-->
 
 </body>
 
