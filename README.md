@@ -1,4 +1,4 @@
-[First HTML5 Email](https://mondom.github.io/time-weather/)  ←  Link to the live view 
+[First HTML5 Email](https://mondom.github.io/First-HTML-email/)  ←  Link to the live view 
 
 
 #project in progress
